@@ -54,12 +54,9 @@ class _HomeMoviePageState extends State<HomeMoviePage> {
                 final data = state.result;
                 return MovieList(data);
               } else if (state is NowPlayingMovieError) {
-                return const Text(
-                  'Failed to fetch data',
-                  key: Key('error_message'),
-                );
+                return Text(state.message);
               } else {
-                return Container();
+                return const Center();
               }
             }),
             _buildSubHeading(

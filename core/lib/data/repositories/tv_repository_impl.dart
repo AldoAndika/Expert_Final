@@ -28,6 +28,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
     }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
+    }
   }
 
   @override
@@ -39,6 +42,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
     }
   }
 
@@ -53,6 +59,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
     }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
+    }
   }
 
   @override
@@ -64,6 +73,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
     }
   }
 
@@ -77,6 +89,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
     }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
+    }
   }
 
   @override
@@ -88,6 +103,9 @@ class RepositoryImplTvSeries implements RepositoryTvSeries {
       return const Left(ServerFailure(''));
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
+    }
+    on TlsException{
+      return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
     }
   }
 

@@ -52,12 +52,9 @@ class _HomeTvSeriesPageState extends State<HomeTvSeriesPage> {
                   final data = state.result;
                   return TvSeriesList(data);
                 } else if (state is OnTheAirTvseriesError) {
-                  return const Text(
-                    'Failed to fetch data',
-                    key: Key('error_message'),
-                  );
+                  return Text(state.message);
                 } else {
-                  return Container();
+                  return const Center();
                 }
               }),
               _buildSubHeading(
@@ -75,12 +72,9 @@ class _HomeTvSeriesPageState extends State<HomeTvSeriesPage> {
                   final data = state.result;
                   return TvSeriesList(data);
                 } else if (state is PopularTvseriesError) {
-                  return const Text(
-                    'Failed to fetch data',
-                    key: Key('error_message'),
-                  );
+                  return Text(state.message);
                 } else {
-                  return Container();
+                  return const Center();
                 }
               }),
               _buildSubHeading(
@@ -98,12 +92,9 @@ class _HomeTvSeriesPageState extends State<HomeTvSeriesPage> {
                   final data = state.result;
                   return TvSeriesList(data);
                 } else if (state is TopRatedTvseriesError) {
-                  return const Text(
-                    'Failed to fetch data',
-                    key: Key('error_message'),
-                  );
+                  return Text(state.message);
                 } else {
-                  return Container();
+                  return const Center();
                 }
               }),
             ],
