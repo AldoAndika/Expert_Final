@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>607182193339-1fs4t4s7phuurpjbf6ftf8nn4dpv45cf.apps.googleusercontent.com</string>
+	<string>283782316223-mbhhfgpaedas4vuoebg00kdegnb1nu0j.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.607182193339-1fs4t4s7phuurpjbf6ftf8nn4dpv45cf</string>
+	<string>com.googleusercontent.apps.283782316223-mbhhfgpaedas4vuoebg00kdegnb1nu0j</string>
 	<key>API_KEY</key>
-	<string>AIzaSyCBY7u8e0DWXL3G7GBnQTuF2BLAfCFKjSI</string>
+	<string>AIzaSyC8HmrZ7Lp-6i2i0zU_i6ZyajfR_seR3ss</string>
 	<key>GCM_SENDER_ID</key>
-	<string>607182193339</string>
+	<string>283782316223</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.dicoding.ditonton</string>
 	<key>PROJECT_ID</key>
-	<string>ditonton-1ba56</string>
+	<string>ditontonexpert</string>
 	<key>STORAGE_BUCKET</key>
-	<string>ditonton-1ba56.appspot.com</string>
+	<string>ditontonexpert.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:607182193339:ios:723e8ba829c83564da9f9e</string>
+	<string>1:283782316223:ios:be7ed4185935cb58db860a</string>
 </dict>
 </plist>
