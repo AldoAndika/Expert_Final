@@ -28,6 +28,9 @@ class RepositoryImplMovie implements RepositoryMovie {
     } on SocketException {
       return const Left(ConnectionFailure('Failed to connect to the network'));
     }
+    // on TlsException{
+    //   return const Left(SslFailure('CERTIFICATE_VERIFY_FAILED'));
+    // }
   }
 
   @override
